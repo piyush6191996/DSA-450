@@ -1,0 +1,8 @@
+def reverseWord(s):
+    #your code here
+    
+    ans = ''
+    for i in s:
+        ans = i + ans
+
+    return ans

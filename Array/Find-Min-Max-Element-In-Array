@@ -1,0 +1,12 @@
+def getMinMax( a, n):
+    
+    mn = mx = a[0]
+    
+    for i in range(n):
+        if mn < a[i]:
+            mn = a[i]
+        
+        if mx > a[i]:
+            mx = a[i]
+    
+    return mx, m

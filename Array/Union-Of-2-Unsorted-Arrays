@@ -1,0 +1,16 @@
+class Solution:    
+    #Function to return the count of number of elements in union of two arrays.
+    def doUnion(self,a,n,b,m):
+        
+        #code here
+        
+        h = {}
+        for i in range(n):
+            if a[i] not in h.keys():
+                h[a[i]] = 1
+                
+        for i in range(m):
+            if b[i] not in h.keys():
+                h[b[i]] = 1
+        
+        return len(h.keys())

@@ -1,0 +1,22 @@
+class Solution:
+    def sort012(self,arr,n):
+        # code here
+
+        zc = oc = tc = 0
+        for i in arr:
+            if i == 0:
+                zc += 1
+            elif i == 1:
+                oc += 1
+            else:
+                tc += 1
+        
+        for i in range(n):
+            if i < zc:
+                arr[i] = 0
+            elif i < zc+oc:
+                arr[i] = 1
+            else:
+                arr[i] = 2
+                
+        return arr

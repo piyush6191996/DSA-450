@@ -1,0 +1,18 @@
+class Solution:
+    def sort012(self,arr,n):
+        # code here
+
+        i, zc, tc = 0, 0, n-1
+        
+        while i <= tc:
+            if arr[i] == 0:
+                arr[zc], arr[i] = arr[i], arr[zc]
+                i += 1
+                zc += 1
+            elif arr[i] == 2:
+                arr[tc], arr[i] = arr[i], arr[tc]
+                tc -= 1
+            else:
+                i += 1
+                
+        return arr

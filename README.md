@@ -6,7 +6,7 @@ DSA Questions by Striver - [Questions List](https://takeuforward.org/interviews/
 | :---: | :---: | :------: | :-----------------------------: |:-----------------------------: |  :----------------------------------------------: |
 | 1 | 16 Jan 2022 | Array | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](https://github.com/piyush6191996/DSA-450/blob/main/Array/Set-Matrix-Zeroes) | Normal Iteration, In Place |
 | 2 | 16 Jan 2022 | Array | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/submissions/) | [Solution](https://github.com/piyush6191996/DSA-450/blob/main/Array/Pascals-Triangle) | Normal Iteration |
-| 3 |  |  |  |  |  |
+| 3 | 17 Jan 2022 | Array | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Solution](https://github.com/piyush6191996/DSA-450/blob/main/Array/Next-Permutation) | Normal |
 | 4 |  |  |  |  |  |
 | 5 |  |  |  |  |  |
 | 6 |  |  |  |  |  |

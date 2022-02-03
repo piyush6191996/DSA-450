@@ -1,0 +1,27 @@
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        import math
+        
+        # Transponse of matrix
+        #1 4 7
+        #2 5 8 
+        #3 6 9
+        
+        n = len(matrix)
+        
+        for i in range(n):
+            for j in range(i, n):
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+                        
+        # Reverse the matrix
+        #7 4 1
+        #8 5 2
+        #9 6 3
+        
+        for i in range(n):
+            for j in range(0, math.floor(n/2)):
+                matrix[i][j], matrix[i][n-j-1] = matrix[i][n-j-1], matrix[i][j]
+                

@@ -11,7 +11,7 @@ DSA Questions by Striver - [Questions List](https://takeuforward.org/interviews/
 | 5 | 18 Jan 2022 | Array | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/piyush6191996/DSA-450/blob/main/Array/Maximum-SubArray) | Kadane's Algorithm |
 | 6 | 18 Jan 2022 | Array | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/piyush6191996/DSA-450/blob/main/Array/Best-Time-To-Buy-And-Sell-Stock) | Normal |
 | 7 | 3 Feb 2022 | Array | [Rotate Image (Inplace)](https://leetcode.com/problems/rotate-image/) | [Solution](https://github.com/piyush6191996/DSA-450/blob/main/Array/Rotate-Image) | Normal |
-| 8 |  |  |  | [Solution]() |  |
+| 8 | 16 Feb 2022 | Array | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Solution](https://github.com/piyush6191996/DSA-450/blob/main/Array/Merge_Intervals) |  |
 | 9 |  |  |  | [Solution]() |  |
 | 10 |  |  |  | [Solution]() |  |
 | 11 |  |  |  | [Solution]() |  |

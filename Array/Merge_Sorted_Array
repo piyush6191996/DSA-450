@@ -1,0 +1,25 @@
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        
+        if n == 0:
+            return True
+        
+        nums1_counter = 0
+        nums2_counter = 0
+        
+        for i in range(m):
+            if nums1[nums1_counter] > nums2[nums2_counter]:
+                nums1[nums1_counter], nums2[nums2_counter] = nums2[nums2_counter], nums1[nums1_counter] 
+                for j in range(n-1):
+                    if nums2[j] > nums2[j+1]:
+                        nums2[j], nums2[j+1] = nums2[j+1], nums2[j] 
+                    else:
+                        break
+            nums1_counter += 1
+                    
+        for i in range(n):
+            nums1[nums1_counter] = nums2[i]
+            nums1_counter += 1
